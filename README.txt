@@ -59,5 +59,18 @@ If login fails:
 Delete:
 %APPDATA%\SabanciCalendarSync\token.json
 
-
 Then run the EXE again.
+
+
+
+
+
+----------------------------------------
+Tech Stack:
+Python
+Requests / BeautifulSoup
+Google Calendar API
+OAuth2
+PyInstaller (for distribution)
+-----------------------------------------
+Architecture diagram: Scraper → Normalizer → Categorizer → Google Auth → Sync Engine
