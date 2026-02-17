@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Debug / temporary files
+downloaded_page.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OAuth client secrets (do not commit)
+assets/oauth_client.json
+assets/oauth_client*.json
