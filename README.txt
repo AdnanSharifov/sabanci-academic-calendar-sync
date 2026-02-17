@@ -1,8 +1,7 @@
+Sabancı academic calendar is not easily syncable to Google Calendar. This tool scrapes the official academic calendar and synchronizes it into Google Calendar via OAuth2.
+
 Sabancı Academic Calendar Sync (UNDER G.)
 Made by canadaaww
-
-This tool syncs the official Sabancı University Undergraduate Academic Calendar
-into your own Google Calendar.
 
 ----------------------------------------
 HOW TO USE
@@ -59,5 +58,6 @@ AUTHENTICATION RESET
 If login fails:
 Delete:
 %APPDATA%\SabanciCalendarSync\token.json
+
 
 Then run the EXE again.
